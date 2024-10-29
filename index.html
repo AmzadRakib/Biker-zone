@@ -40,7 +40,7 @@
     <!-- Header section -->
     <header class="md:container md:mx-auto">
         <!-- Navigation Menu  -->
-        <nav>
+        <nav class="md:mt-12">
             <div class="navbar bg-base-100">
                 <div class="flex-1">
                     <div class="dropdown">
@@ -74,9 +74,73 @@
                 </div>
             </div>
         </nav>
-        <!-- Hero Banner Section -->
-        <section>
-
+        <!-- Slider carousel -->
+        <section class="mt-12">
+            <div class="carousel w-full bg-[#E76F511A] rounded-md md:h-[550px]">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="flex flex-col md:flex-row md:p-24 p-12 items-center md:justify-end">
+                        <!-- slide text content  -->
+                        <div class="space-y-7 flex-1">
+                            <h1 class="text-3xl md:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                            <p>Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button
+                                class="btn bg-bike-primary text-white text-[20px] font-semibold hover:bg-slate-500">Purchase</button>
+                        </div>
+                        <!-- slide image content  -->
+                        <div class="flex-1 flex md:justify-center">
+                            <img src="images/slider/bike1.png" class="w-[406px]" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="flex flex-col md:flex-row md:p-24 p-12 items-center">
+                        <!-- slide text content  -->
+                        <div class="space-y-7 flex-1">
+                            <h1 class="text-3xl md:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                            <p>Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button
+                                class="btn bg-bike-primary text-white text-[20px] font-semibold hover:bg-slate-500">Purchase</button>
+                        </div>
+                        <!-- slide image content  -->
+                        <div class="flex-1 flex md:justify-center">
+                            <img src="images/slider/bike2.png" class="w-[406px]" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="flex flex-col md:flex-row md:p-24 p-12 items-center">
+                        <!-- slide text content  -->
+                        <div class="space-y-7 flex-1">
+                            <h1 class="text-3xl md:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                            <p>Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button
+                                class="btn bg-bike-primary text-white text-[20px] font-semibold hover:bg-slate-500">Purchase</button>
+                        </div>
+                        <!-- slide image content  -->
+                        <div class="flex-1 flex md:justify-center">
+                            <img src="images/slider/bike3.png" class="w-[406px]" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </header>
